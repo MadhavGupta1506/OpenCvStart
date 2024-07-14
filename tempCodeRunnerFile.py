@@ -1,1 +1,2 @@
-INTER_AREA
+
+cv.imshow("Bit Or",bitor)
