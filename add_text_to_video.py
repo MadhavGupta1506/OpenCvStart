@@ -14,9 +14,9 @@ cap.set(3,3000)
 while(cap.isOpened()):
     ret,frame=cap.read()
     if(ret==True):
-        gray=cv.cvtColor(frame,cv.COLOR_RGB2GRAY)
-        cv.imshow("Video",gray)
-        if(cv.waitKey(1) & 0xFF==ord("q")):
+        frame=cv.putText(frame,"HELLO",(80,280),cv.FONT_HERSHEY_TRIPLEX,5,(0,252,121),5,cv.LINE_AA)
+        cv.imshow("Video",frame)
+        if(cv.waitKey(20) & 0xFF==ord("q")):
             break
     else:
         break
