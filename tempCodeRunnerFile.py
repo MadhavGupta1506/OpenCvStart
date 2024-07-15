@@ -1,2 +1,2 @@
-
-cv.imshow("Bit Or",bitor)
+def nothing(x):
+    pass
