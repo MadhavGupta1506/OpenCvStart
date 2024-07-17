@@ -1,2 +1,1 @@
-def nothing(x):
-    pass
+cv.imshow("Image",img)
